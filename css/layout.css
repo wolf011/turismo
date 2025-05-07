@@ -1,15 +1,15 @@
 .layout-cabecalho {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     position: relative;
-    overflow: hidden
-    
+    overflow: hidden;
 }
 
 /* ########################################################################################################### */
 
 /*Revisado Leo*/
 .layout-menubar {
+    width: 100vw;
     background-color: #005d92;
     text-align: center;
     justify-content: center;
@@ -20,7 +20,7 @@
 .layout-rodape {
     margin-top: 10px;
     padding: 20px;
-    width: 100%;
+    width: 100vw;
     height: 400%;
     font-size: 0.9rem;
     color: white;
@@ -39,6 +39,8 @@
     text-align: center;    /* Centraliza texto */
     padding: 20px;    /* Aumenta espaçamento interno */
     border: 3px solid #000000; /* Borda mais espessa */
+    background-color: white;
+    opacity: 0.8;
     width: 100%; /* Ocupa 100% do container pai */
 
 }
