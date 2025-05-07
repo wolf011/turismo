@@ -1,94 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
-        <link rel="stylesheet" href="./css/base.css">
-        <link rel="stylesheet" href="./css/layout.css">
-        <link rel="stylesheet" href="./css/componente.css">
-        <title>home - Página Incial</title>
-    </head>
+<html lang="pt-Br">
 
-    <body>
-        <div class="container">
-          <header class="layout-cabecalho">
-            <img src="../img/capa.webp" alt="Internet" width="80px">
-          </header>
-        </div>
-      
-        <div class="container">
-            <!-- BARRA DE MENU -->
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <title>Turismo em Petrópolis</title>
+</head>
 
-        <div class="container">
-          <section class="layout-principal">
-            <div class="principal">
-              <h1 class="principal__titulo">Titulo</h1>
-              <h2 class="principal__subtitulo">Subtitulo</h2>
+<body>
+    <!-- Inicial -->
+    <div class="container">
+        <header class="home-content">
+            <img src="../img/capa.webp" alt="Imagem de Petrópolis" class="main-img" />
+            <div class="sobreposicao">
+                <h1>Turismo em Petrópolis</h1>
+                <h2>História, Cultura e Natureza</h2>
             </div>
-            <div class="principal__assinar">
-              <a href="#planos" class="botao botao--assinar">Conheça nossos planos</a>
-            </div>
-          </section>
+        </header>
+    </div>
+
+    <!-- Menu -->
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <!-- Links meio zoados -->
+                <li><a href="#leste">Área Leste</a></li>
+                <li><a href="#oeste">Área Oeste</a></li>
+                <li><a href="#guias">Guias Turísticos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </div>
-      
-        <div id="planos" class="layout-planos">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4">
-                <article class="plano">
-                  <h2 class="plano__cabecalho">Básico</h2>
-                  <div class="plano__preco">R$59,90</div>
-                  <ul class="plano__caracteristicas">
-                    <li>Até <strong>5 usuários</strong></li>
-                    <li>10GB de Acesso</li>
-                    <li>Instalação Gratuita</li>
-                    <li>Fibra Ótica</li>
-                    <li>Sem Fidelidade</li>
-                  </ul>
-                  <footer class="plano__rodape">
-                    <a href="#" class="botao">Assinar</a>
-                  </footer>
-                </article>
-              </div>
-      
-              <div class="col-md-4">
-                <article class="plano">
-                  <h2 class="plano__cabecalho">Intermediário</h2>
-                  <div class="plano__preco">R$99,90</div>
-                  <ul class="plano__caracteristicas">
-                    <li>Até <strong>20 usuários</strong></li>
-                    <li>100GB de Acesso</li>
-                    <li>Instalação Gratuita</li>
-                    <li>Fibra Ótica</li>
-                    <li>Sem Fidelidade</li>
-                  </ul>
-                  <footer class="plano__rodape">
-                    <a href="#" class="botao">Assinar</a>
-                  </footer>
-                </article>
-              </div>
-      
-      
-              </article>
-            </div>
-          </div>
-      
-          <div class="container">
-            <div class="layout-rodape">
-              <div class="rodape">
-                <!-- Rodapé -- Rodrigo -->
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-              </div>
-            </div>
-          </div>
-      
-        </div>
-      
-      
-      </body>
+    </div>
+
+
+    <!-- Guias Turísticos -->
+    <section class="guias">
+        <h2>Guias Turísticos</h2>
+        <p>Explore atrações históricas, eventos e a gastronomia da cidade.</p>
+    </section>
+
+    <!-- Área Leste -->
+    <section class="regiao">
+        <h2>Área Leste</h2>
+        <ul>
+            <!-- Dados para enxer linguiça -->
+            <li>Museu Imperial</li>
+            <li>Palácio de Cristal</li>
+            <li>Catedral São Pedro de Alcântara</li> 
+        </ul>
+    </section>
+    
+    <!-- Área Oeste -->
+    <section class="regiao">
+        <h2>Área Oeste</h2>
+        <ul>
+            <!-- Dados para enxer linguiça -->
+            <li>Parque Nacional da Serra dos Órgãos</li>
+            <li>Cascata do Véu da Noiva</li>
+            <li>Fazenda Samambaia</li>
+        </ul>
+    </section>
+    
+    <!-- Rodapé -->
+    <footer class="contato">
+        <!-- Dados para enxer linguiça -->
+        <p>Secretaria de Turismo de Petrópolis</p>
+        <p>Email: contato@turismopetropolis.rj.gov.br</p>
+        <p>Telefone: 0800 450 7070</p>
+        <p>Wpp: 24 - 2237-3321</p>
+        <p>Siga nas redes sociais: Facebook | Instagram</p>
+        <p>&copy; 2025 - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+
 </html>
