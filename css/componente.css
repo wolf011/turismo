@@ -1,3 +1,10 @@
+body {
+    background-image: url("../img/museu.jpg");
+    background-size: contain;
+}
+
+/* ############################################################################################################### */
+
 .imagem-cabecalho {
     width: 100%;
     height: 100%;
@@ -26,11 +33,11 @@
 }
 
 .sobreposicao h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   
 .sobreposicao h2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 /* ############################################################################################################### */
@@ -66,36 +73,31 @@ color: #ffcc33;;
     justify-content: center;
 }
 
-.historia p{
+.blocos__historia p{
     text-align: center;
 }
 
-.historia h1 {
+.blocos__historia h1 {
     margin-left: 10px;
     text-align: left;
 }
 
-/* .guias__turisticos {
+/* .blocos_guias {
     
 }
 
-.atracoes__turisticos {
+.blocos__atracoes {
 
 }
-.eventos {
+.blocos__eventos {
 
 }
 
-.gatronomia {
+.blocos__gatronomia {
     
 } */
 
-.turismo__regiao {
-    display: flex;
-    width: 100%;
-}
-
-.regiao ul{
+.blocos__regiao ul{
     list-style: none;
 }
 
