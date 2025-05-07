@@ -13,7 +13,7 @@
 
 <body>
   <!-- Cabeçalho -->
-  <div class="container">
+  <div class="container-fluid">
     <header class="layout-cabecalho">
       <div class="conteudo-cabecalho">
         <img class="imagem-cabecalho" src="../img/catedral_capa.jpg" alt="Imagem de Petrópolis" />
@@ -28,36 +28,36 @@
   <!-- ########################################################################################################## -->
 
   <!-- Menu -->
-  <div class="container">
+  <div class="container-fluid ">
     <div class="layout-menubar">
-      <section class="container">
+      <section class="container-fluid">
         <div class="row">
-          <div class="col-3">
+          <div class="col-sm">
             <div class="p-3 border">
               <a href="#historia" class="botao">História</a>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-sm">
             <div class="p-3 border">
               <a href="#guias" class="botao">Guias turísticos</a>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-sm">
             <div class="p-3 border">
               <a href="#atracoes" class="botao">Atrações Turisticas</a>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-sm">
             <div class="p-3 border">
               <a href="#eventos" class="botao">Eventos</a>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-sm">
             <div class="p-3 border">
               <a href="#regiao" class="botao">Gastronomia</a>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-sm">
             <div class="p-3 border">
               <a href="#gastronomia" class="botao">Atrações por região</a>
             </div>
@@ -72,7 +72,7 @@
 
   <div class="conteudo-site">
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="col-12 col-md-12">
         <section class="layout-blocos">
           <div id="historia" class="historia">
@@ -88,16 +88,18 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="col-6 col-md-6">
+    <div class="container-fluid">
+      <div class="col-12 col-md-12">
         <section class="layout-blocos">
           <div id="guias" class="guias__turisticos">
             <h2>Guias Turísticos</h2>
             <p>Explore atrações históricas, eventos e a gastronomia da cidade.</p>
           </div>
       </div>
+    </div>
 
-      <div class="col-6 col-md-6">
+    <div class="container-fluid">
+      <div class="col-12 col-md-12">
         <section class="layout-blocos">
           <div id="atracoes" class="atracoes__turisticos">
             <h2>Pontos turísticos</h2>
@@ -114,8 +116,8 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="col-6 col-md-6">
+    <div class="container-fluid">
+      <div class="col-12 col-md-12">
         <section class="layout-blocos">
           <div id="eventos" class="eventos">
             <h2>Eventos</h2>
@@ -130,8 +132,10 @@
           </div>
         </section>
       </div>
+    </div>
 
-      <div class="col-6 col-md-6">
+    <div class="container-fluid">
+      <div class="col-12 col-md-12">
         <section class="layout-blocos">
           <div id="gastronomia" class="gatronomia">
             <h2>Gastronomia</h2>
@@ -145,50 +149,48 @@
       </div>
       </section>
     </div>
-  
-    
-    <div class="container">
-      <section class="layout-blocos">
-        <div id="regiao" class="turismo__regiao">
-          <!-- Área Leste -->
-            <div class="col-6 col-md-6">
-              <section class="layout-blocos">
-                <section class="regiao">
-                  <h2>Área Leste</h2>
-                  <ul>
-                    <!-- Dados para enxer linguiça -->
-                    <li>Museu Imperial</li>
-                    <li>Palácio de Cristal</li>
-                    <li>Catedral São Pedro de Alcântara</li>
-                  </ul>
-                </section>
-              </section>
+
+
+    <div class="container-fluid">
+      <div id="regiao" class="turismo__regiao">
+        <!-- Área Leste -->
+        <div class="col-sm">
+          <section class="layout-blocos">
+            <div class="regiao">
+              <h2>Área Leste</h2>
+              <ul>
+                <!-- Dados para enxer linguiça -->
+                <li>Museu Imperial</li>
+                <li>Palácio de Cristal</li>
+                <li>Catedral São Pedro de Alcântara</li>
+              </ul>
             </div>
-          
-            <!-- Área Oeste -->
-            <div class="col-6 col-md-6">
-              <section class="layout-blocos">
-                <section class="regiao">
-                  <h2>Área Oeste</h2>
-                  <ul>
-                    <!-- Dados para enxer linguiça -->
-                    <li>Parque Nacional da Serra dos Órgãos</li>
-                    <li>Cascata do Véu da Noiva</li>
-                    <li>Fazenda Samambaia</li>
-                  </ul>
-                </section>
-              </section>
+          </section>
+        </div>
+
+        <!-- Área Oeste -->
+        <div class="col-sm">
+          <section class="layout-blocos">
+            <div class="regiao">
+              <h2>Área Oeste</h2>
+              <ul>
+                <!-- Dados para enxer linguiça -->
+                <li>Parque Nacional da Serra dos Órgãos</li>
+                <li>Cascata do Véu da Noiva</li>
+                <li>Fazenda Samambaia</li>
+              </ul>
             </div>
-        </section>
+          </section>
+        </div>
       </div>
     </div>
-      
+
   </div>
       
   <!-- ########################################################################################################## -->
 
   <!-- Rodapé -->
-  <div class="container">
+  <div class="container-fluid">
     <footer class="layout-rodape">
       <div class="rodape">
         <a href="https://www.petropolis.rj.gov.br/turispetro/" target="_blank" class="rodape__botao">Secretaria de Turismo de Petrópolis</a>

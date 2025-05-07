@@ -1,23 +1,22 @@
 .layout-cabecalho {
     width: 100%;
-    height: 100vh;
-    /* background-color: #a8f5db; */
+    height: 100%;
     position: relative;
     overflow: hidden
+    
 }
 
 /* ########################################################################################################### */
 
+/*Revisado Leo*/
 .layout-menubar {
-    margin-top: 0;
-    padding: 5px 0;
-
-    background-color: #222;
+    background-color: #005d92;
     text-align: center;
     justify-content: center;
     font-size: 1.5rem;
 }
 
+/*Revisado Leo*/
 .layout-rodape {
     margin-top: 10px;
     padding: 20px;
@@ -25,7 +24,7 @@
     height: 400%;
     font-size: 0.9rem;
     color: white;
-    background-color: #222;
+    background-color: #005d92;
 }
 
 /* ############################################################################################################ */
@@ -41,4 +40,5 @@
     padding: 20px;    /* Aumenta espaçamento interno */
     border: 3px solid #000000; /* Borda mais espessa */
     width: 100%; /* Ocupa 100% do container pai */
+
 }
