@@ -1,104 +1,68 @@
-
-.plano {                        /**/
-    padding: 10px;
-    border: 1px solid #95a4a5;
-    font-size: 1rem;
+.imagem-cabecalho {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.plano__cabecalho {
-    margin-bottom: 0;
-    background-color: #ffcc33;
-    color: #ffffff;
-    font-size: 1.75em;
-    text-align: center;
-    line-height: 2.5;
-}
-
-.plano__preco {
-    margin: 20px;
-    font-size: 1.75em;
-    text-align: center;
-}
-
-.plano__caracteristicas {
-    margin: 20px 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-}
-
-.plano__caracteristicas > li {
-    text-align: center;
-}
-
-.plano__rodape {
-    text-align: center;
-}
-
-.botao {             /*Revisado Leo*/
-    display: inline-block;
-    padding: 12px 16px;
+.sobreposicao { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     color: white;
-    background-color: #00A696;
-    text-decoration:  none;
-    outline: none;
-    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s;
 }
 
-.botao--assinar {       /*Revisado Leo*/
-    background-color: #00A696;
-    color: rgb(255, 255, 255);
+
+.conteudo-cabecalho:hover .sobreposicao{
+    opacity: 1;
 }
 
-.botao:hover {          /*Revisado Leo*/
-    background-color: #ffcc33;
-}
-
-.botao:focus {          /*Revisado Leo*/
-    background-color: green;
-}
-
-.principal {              /*Revisado Leo*/
+.sobreposicao h1 {
+    font-size: 2.5rem;
+  }
+  
+.sobreposicao h2 {
     font-size: 1.5rem;
-    text-align: center;
 }
 
-.principal__titulo { /*Revisado Leo*/
-    color:#00A696;
-    font-size: 3.25em;
-    text-shadow: 1px 2px #313131;
-    text-align: center;
+/* ############################################################################################################### */
+
+/*Revisado Leo*/
+.botao {
+display: inline-block;
+padding: 12px 16px;
+color: white;
+/* background-color: #00A696; */
+text-decoration:  none;
+outline: none;
+border-radius: 50%;
 }
 
-.principal__subtitulo { /*Revisado Leo*/
-    margin: 20px 0;
-    color:#00A696;
-    font-size: 1.75em;
-    text-align: center;
+/*Revisado Leo*/
+/* .botao--assinar {
+background-color: #00A696;
+color: rgb(255, 255, 255);
+} */
 
+/*Revisado Leo*/
+.botao:hover {
+color: #ffcc33;;
 }
 
-.depoimento {
-    font-size: 1.5em;
+/*Revisado Leo*/
+.botao:focus {
+    color: rgb(247, 154, 154);
 }
 
-.depoimento > blockquote {
-    padding: 0 60px;
-    font-size: 1.25em;
-    text-align: center;
-}
-
-.depoimento__autor {
-    text-align: center;
-}
-
-.depoimento__autor > img {
-    border-radius: 50%;
-}
-
-.depoimento__autor > p {
-    margin-top: 10px;
-}
+/* ############################################################################################################### */
 
 .rodape {
     text-align: center;
@@ -113,3 +77,5 @@
     justify-content: center;
     gap: 100px;
 }
+
+/* ################################################################################################################ */
