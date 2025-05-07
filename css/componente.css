@@ -27,8 +27,8 @@
 
 .sobreposicao h1 {
     font-size: 2.5rem;
-}
-
+  }
+  
 .sobreposicao h2 {
     font-size: 1.5rem;
 }
@@ -41,12 +41,12 @@
 
 /*Revisado Leo*/
 .botao {
-    display: inline-block;
-    padding: 12px 16px;
-    color: white;
-    text-decoration:  none;
-    outline: none;
-    border-radius: 50%;
+display: inline-block;
+padding: 12px 16px;
+color: white;
+text-decoration:  none;
+outline: none;
+border-radius: 50%;
 }
 
 /*Revisado Leo*/
@@ -63,6 +63,7 @@ color: #ffcc33;;
 
 .container {
     display: flex;
+    justify-content: center;
 }
 
 .historia p{
@@ -91,8 +92,7 @@ color: #ffcc33;;
 
 .turismo__regiao {
     display: flex;
-    justify-content: center;
-    gap: 2px;
+    width: 100%;
 }
 
 .regiao ul{
