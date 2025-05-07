@@ -35,6 +35,10 @@
 
 /* ############################################################################################################### */
 
+.row {
+    justify-content: center;
+}
+
 /*Revisado Leo*/
 .botao {
 display: inline-block;
@@ -47,12 +51,6 @@ border-radius: 50%;
 }
 
 /*Revisado Leo*/
-/* .botao--assinar {
-background-color: #00A696;
-color: rgb(255, 255, 255);
-} */
-
-/*Revisado Leo*/
 .botao:hover {
 color: #ffcc33;;
 }
@@ -60,6 +58,46 @@ color: #ffcc33;;
 /*Revisado Leo*/
 .botao:focus {
     color: rgb(247, 154, 154);
+}
+
+/* ############################################################################################################### */
+
+.container {
+    display: flex;
+}
+
+.historia p{
+    text-align: center;
+}
+
+.historia h1 {
+    margin-left: 10px;
+    text-align: left;
+}
+
+/* .guias__turisticos {
+    
+}
+
+.atracoes__turisticos {
+
+}
+.eventos {
+
+}
+
+.gatronomia {
+    
+} */
+
+.turismo__regiao {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+.regiao ul{
+    list-style: none;
 }
 
 /* ############################################################################################################### */
