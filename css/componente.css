@@ -84,20 +84,21 @@
     text-align: left;
 }
 
-/* .blocos_guias {
-    
+.blocos_guias ul{
+    text-align: justify;
 }
 
-.blocos__atracoes {
-
-}
-.blocos__eventos {
-
+.blocos__atracoes ul {
+    text-align: justify;
 }
 
-.blocos__gatronomia {
-    
-} */
+.blocos__eventos ul{
+    text-align: justify;
+}
+
+.blocos__gatronomia ul{
+    text-align: justify;
+}
 
 .blocos__regiao ul {
     list-style: none; /*Tira o estilo da lista*/
