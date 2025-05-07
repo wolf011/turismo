@@ -1,39 +1,30 @@
 .layout-cabecalho {
-    height: 100px;
-    background-color: #a8f5db;
+    height: 100vh;
+    /* background-color: #a8f5db; */
+    position: relative;
+    overflow: hidden
 }
 
+/* ########################################################################################################### */
 
-.layout-principal { /*Revisado Leo*/
-    margin-top: 0;
-    padding: 5px 0;
-}
-
-.layout-menubar{ /*Revisado Leo*/
+/*Revisado Leo*/
+.layout-menubar{
     margin-top: 0;
     padding: 5px 0;
 
-    background-color: #a8f5db;
+    background-color: #222;
     text-align: center;
     font-size: 1.5rem;
 }
 
-.layout-planos {
-    padding: 80px 0;
-}
-
-.layout-depoimento {
-    margin-top: 40px;
-    padding: 80px 0;
-    background-color: #e7e7e7;
-}
-
-.layout-rodape {  /*Revisado Leo*/
+/*Revisado Leo*/
+.layout-rodape {
     margin-top: 0;
-    padding: 5px; 
-    height: 300px;
-
+    padding: 20px; 
+    height: 400%;
+    font-size: 0.9rem;
     color: white;
-    background-color: #00A696;
+    background-color: #222;
 }
 
+/* ############################################################################################################ */
