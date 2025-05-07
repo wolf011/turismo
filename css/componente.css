@@ -1,5 +1,5 @@
 
-.plano {
+.plano {                        /**/
     padding: 10px;
     border: 1px solid #95a4a5;
     font-size: 1rem;
@@ -35,51 +35,47 @@
     text-align: center;
 }
 
-.botao {
+.botao {             /*Revisado Leo*/
     display: inline-block;
     padding: 12px 16px;
     color: white;
     background-color: #00A696;
     text-decoration:  none;
     outline: none;
+    border-radius: 50%;
 }
 
-.botao--assinar {
+.botao--assinar {       /*Revisado Leo*/
     background-color: #00A696;
     color: rgb(255, 255, 255);
 }
 
-.botao:hover {
+.botao:hover {          /*Revisado Leo*/
     background-color: #ffcc33;
 }
 
-.botao:focus {
+.botao:focus {          /*Revisado Leo*/
     background-color: green;
 }
 
-.principal {
+.principal {              /*Revisado Leo*/
     font-size: 1.5rem;
     text-align: center;
 }
 
-.principal__titulo {
-    color: #ffffff;
-    font-size: 2.25em;
+.principal__titulo { /*Revisado Leo*/
+    color:#00A696;
+    font-size: 3.25em;
     text-shadow: 1px 2px #313131;
-}
-
-.principal__subtitulo {
-    margin: 60px 0;
-    color: #ffffff;
-    font-size: 1.25em;
-    text-shadow: 1px 2px #313131;
-}
-
-.principal__assinar {
-    margin: 50px 0;
-    color: #ffcc33;
-    font-size: 1.25em;
     text-align: center;
+}
+
+.principal__subtitulo { /*Revisado Leo*/
+    margin: 20px 0;
+    color:#00A696;
+    font-size: 1.75em;
+    text-align: center;
+
 }
 
 .depoimento {
@@ -106,4 +102,14 @@
 
 .rodape {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.rodape__duplo{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }

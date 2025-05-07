@@ -4,24 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="../css/layout.css">
     <title>Turismo em Petrópolis</title>
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/componente.css">
 </head>
 
 <body>
     <!-- Inicial -->
     <div class="container">
-        <header class="home-content">
-            <img src="../img/capa.webp" alt="Imagem de Petrópolis" class="main-img" />
-            <div class="sobreposicao">
-                <h1>Turismo em Petrópolis</h1>
-                <h2>História, Cultura e Natureza</h2>
-            </div>
+        <header class="layout-cabecalho">
+            <img src="../img/capa.webp" alt="Imagem de Petrópolis" width="110px"/>
         </header>
     </div>
 
-    <!-- Menu -->
+    <!-- Principal -->
+    <div class="container">
+      <div class="layout-principal">
+        <h1 class="principal__titulo">Turismo em Petrópolis</h1>
+        <h2 class="principal__subtitulo">História, Cultura e Natureza</h2>
+      </div>
+    </div>
+
+
+    <!-- Menu Leo-->
+    <div class="layout-menubar">
+      <section class="container">
+        <div class="row" >
+          <div class="col-3">
+            <div class="p-3 border">
+              <a href="#historia" class="botao">História</a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="p-3 border">
+              <a href="#atracoes" class="botao">Atrações Turisticas</a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="p-3 border">
+              <a href="#eventos" class="botao">Eventos</a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="p-3 border">
+              <a href="#gastronomia" class="botao">Gastronomia</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+
+
     <div class="container">
         <div class="menu">
             <ul>
@@ -64,16 +101,25 @@
     </section>
     
     <!-- Rodapé -->
-    <footer class="contato">
-        <!-- Dados para enxer linguiça -->
-        <p>Secretaria de Turismo de Petrópolis</p>
-        <p>Email: contato@turismopetropolis.rj.gov.br</p>
-        <p>Telefone: 0800 450 7070</p>
-        <p>Wpp: 24 - 2237-3321</p>
-        <p>Siga nas redes sociais: Facebook | Instagram</p>
-        <p>&copy; 2025 - Todos os direitos reservados</p>
-    </footer>
+    <div class="container">
+      <footer class="layout-rodape">
+        <hr>
+        <div class="rodape"> 
+          <p>Secretaria de Turismo de Petrópolis</p>
+          <p>Email: contato@turismopetropolis.rj.gov.br</p>
+          <div class="rodape__duplo">
+            <p>Telefone: 0800 450 7070</p>
+            <p>Wpp: 24 - 2237-3321</p>
+          </div>
+          <div class="rodape__duplo">
+            <p>Siga nas redes sociais: Facebook | Instagram</p>
+            <p>&copy; 2025 - Todos os direitos reservados</p>
+          </div>
+          
+        </div>
 
+      </footer>
+    </div>
 </body>
 
 </html>

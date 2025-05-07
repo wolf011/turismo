@@ -1,16 +1,25 @@
 .layout-cabecalho {
-    height: 85px;
-    background-color: #00A696;
+    height: 100px;
+    background-color: #a8f5db;
+}
+
+
+.layout-principal { /*Revisado Leo*/
+    margin-top: 0;
+    padding: 5px 0;
+}
+
+.layout-menubar{ /*Revisado Leo*/
+    margin-top: 0;
+    padding: 5px 0;
+
+    background-color: #a8f5db;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .layout-planos {
     padding: 80px 0;
-}
-
-.layout-principal {
-    margin-top: 40px;
-    padding: 80px 0;
-    background-image: url(../img/img_boa.png);
 }
 
 .layout-depoimento {
@@ -19,10 +28,12 @@
     background-color: #e7e7e7;
 }
 
-.layout-rodape {
-    margin-top: 40px;
-    padding: 80px 0; 
+.layout-rodape {  /*Revisado Leo*/
+    margin-top: 0;
+    padding: 5px; 
+    height: 300px;
+
     color: white;
     background-color: #00A696;
-
 }
+
