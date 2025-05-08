@@ -4,12 +4,12 @@
 .imagem-cabecalho {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; /*Evita a distorção da imagem independente do tamanho da tela*/
 }
 
 /*Sobreposição da imagem do cabeçalho*/
 .sobreposicao {
-    position: absolute;
+    position: absolute; /*Puxa a sobreposição para cima da imagem de fundo*/
     top: 0;
     left: 0;
     width: 100%;
@@ -34,7 +34,7 @@
     font-size: 3.5rem;
 }
 
-/* 1º Título do cabeçalho */
+/* 2º Título do cabeçalho */
 .sobreposicao h2 {
     font-size: 2.5rem;
 }
@@ -74,10 +74,10 @@
 }
 
 
+/*Alinhamento dos textos*/
 .blocos__historia p {
     text-align: center;
 }
-
 
 .blocos__historia h1 {
     margin-left: 10px;
@@ -104,12 +104,19 @@
     list-style: none; /*Tira o estilo da lista*/
 }
 
+/*Altera as dimensões das fotos*/
+.fotos {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 20%;
+}
+
 /* ############################################################################################################### */
 /* Definições do rodapé e seus elementos */
 
 .rodape {
     display: flex;
-    gap: 15px;
+    gap: 15px; /*Distância entre os itens*/
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -131,5 +138,3 @@
     color: #ffcc33;
     ;
 }
-
-/* ################################################################################################################ */
